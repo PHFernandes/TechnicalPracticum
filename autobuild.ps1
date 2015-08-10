@@ -5,7 +5,7 @@ Write-Host "You have 10 seconds" -ForegroundColor Red -BackgroundColor White
 
 Start-Sleep -s 10
 
-$baseDirectory = "C:\Users\Pedro Henrique\Projetos\Practicum"
+$baseDirectory = "https://github.com/PHFernandes/TechnicalPracticum/"
 $solutionFilesPath = "$baseDirectory\SolutionConfig.txt"
 $projectFiles = Get-Content $solutionFilesPath 
 
