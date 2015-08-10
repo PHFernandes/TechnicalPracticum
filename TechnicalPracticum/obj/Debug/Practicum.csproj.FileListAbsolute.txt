@@ -1,0 +1,6 @@
+C:\Users\Pedro Henrique\Projetos\Practicum\Practicum\bin\Debug\Practicum.exe.config
+C:\Users\Pedro Henrique\Projetos\Practicum\Practicum\bin\Debug\Practicum.exe
+C:\Users\Pedro Henrique\Projetos\Practicum\Practicum\bin\Debug\Practicum.pdb
+C:\Users\Pedro Henrique\Projetos\Practicum\Practicum\obj\Debug\Practicum.csprojResolveAssemblyReference.cache
+C:\Users\Pedro Henrique\Projetos\Practicum\Practicum\obj\Debug\Practicum.exe
+C:\Users\Pedro Henrique\Projetos\Practicum\Practicum\obj\Debug\Practicum.pdb

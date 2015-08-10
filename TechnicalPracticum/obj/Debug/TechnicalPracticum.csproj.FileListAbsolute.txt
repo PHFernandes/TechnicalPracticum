@@ -1,0 +1,6 @@
+C:\Users\Pedro Henrique\Projetos\Technical Practicum\TechnicalPracticum\bin\Debug\Practicum.exe.config
+C:\Users\Pedro Henrique\Projetos\Technical Practicum\TechnicalPracticum\bin\Debug\Practicum.exe
+C:\Users\Pedro Henrique\Projetos\Technical Practicum\TechnicalPracticum\bin\Debug\Practicum.pdb
+C:\Users\Pedro Henrique\Projetos\Technical Practicum\TechnicalPracticum\obj\Debug\TechnicalPracticum.csprojResolveAssemblyReference.cache
+C:\Users\Pedro Henrique\Projetos\Technical Practicum\TechnicalPracticum\obj\Debug\Practicum.exe
+C:\Users\Pedro Henrique\Projetos\Technical Practicum\TechnicalPracticum\obj\Debug\Practicum.pdb

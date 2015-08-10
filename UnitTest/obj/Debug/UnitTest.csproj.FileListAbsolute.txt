@@ -1,0 +1,14 @@
+C:\Users\Pedro Henrique\Projetos\Practicum\UnitTest\bin\Debug\UnitTest.dll
+C:\Users\Pedro Henrique\Projetos\Practicum\UnitTest\bin\Debug\UnitTest.pdb
+C:\Users\Pedro Henrique\Projetos\Practicum\UnitTest\bin\Debug\Practicum.exe
+C:\Users\Pedro Henrique\Projetos\Practicum\UnitTest\bin\Debug\Practicum.pdb
+C:\Users\Pedro Henrique\Projetos\Practicum\UnitTest\obj\Debug\UnitTest.csprojResolveAssemblyReference.cache
+C:\Users\Pedro Henrique\Projetos\Practicum\UnitTest\obj\Debug\UnitTest.dll
+C:\Users\Pedro Henrique\Projetos\Practicum\UnitTest\obj\Debug\UnitTest.pdb
+C:\Users\Pedro Henrique\Projetos\Technical Practicum\UnitTest\obj\Debug\UnitTest.csprojResolveAssemblyReference.cache
+C:\Users\Pedro Henrique\Projetos\Technical Practicum\UnitTest\obj\Debug\UnitTest.dll
+C:\Users\Pedro Henrique\Projetos\Technical Practicum\UnitTest\obj\Debug\UnitTest.pdb
+C:\Users\Pedro Henrique\Projetos\Technical Practicum\UnitTest\bin\Debug\UnitTest.dll
+C:\Users\Pedro Henrique\Projetos\Technical Practicum\UnitTest\bin\Debug\UnitTest.pdb
+C:\Users\Pedro Henrique\Projetos\Technical Practicum\UnitTest\bin\Debug\Practicum.exe
+C:\Users\Pedro Henrique\Projetos\Technical Practicum\UnitTest\bin\Debug\Practicum.pdb
