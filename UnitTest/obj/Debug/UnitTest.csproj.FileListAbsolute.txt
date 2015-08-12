@@ -12,3 +12,10 @@ C:\Users\Pedro Henrique\Projetos\Technical Practicum\UnitTest\bin\Debug\UnitTest
 C:\Users\Pedro Henrique\Projetos\Technical Practicum\UnitTest\bin\Debug\UnitTest.pdb
 C:\Users\Pedro Henrique\Projetos\Technical Practicum\UnitTest\bin\Debug\Practicum.exe
 C:\Users\Pedro Henrique\Projetos\Technical Practicum\UnitTest\bin\Debug\Practicum.pdb
+C:\Users\Pedro Henrique\Documents\GitHub\TechnicalPracticum\UnitTest\bin\Debug\UnitTest.dll
+C:\Users\Pedro Henrique\Documents\GitHub\TechnicalPracticum\UnitTest\bin\Debug\UnitTest.pdb
+C:\Users\Pedro Henrique\Documents\GitHub\TechnicalPracticum\UnitTest\bin\Debug\Practicum.exe
+C:\Users\Pedro Henrique\Documents\GitHub\TechnicalPracticum\UnitTest\bin\Debug\Practicum.pdb
+C:\Users\Pedro Henrique\Documents\GitHub\TechnicalPracticum\UnitTest\obj\Debug\UnitTest.csprojResolveAssemblyReference.cache
+C:\Users\Pedro Henrique\Documents\GitHub\TechnicalPracticum\UnitTest\obj\Debug\UnitTest.dll
+C:\Users\Pedro Henrique\Documents\GitHub\TechnicalPracticum\UnitTest\obj\Debug\UnitTest.pdb

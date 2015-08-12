@@ -1,22 +1,10 @@
-﻿using TechnicalPracticum.Model;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using TechnicalPracticum.Model;
 
 namespace TechnicalPracticum
 {
     public class Restaurant
     {
-        public List<TimeOfDay> timeOfDayList = new List<TimeOfDay> {
-            new TimeOfDay(1, "Morning"),
-            new TimeOfDay(2, "Night")
-        };
-
-        public List<DishType> dishTypeList = new List<DishType> {
-            new DishType(1, "Entrée"),
-            new DishType(2, "Side"),
-            new DishType(3, "Drink"),
-            new DishType(4, "Dessert")
-        };
-
         public List<Food> foodList = new List<Food> {
             new Food(1, "Eggs"),
             new Food(2, "Steak"),
@@ -28,29 +16,20 @@ namespace TechnicalPracticum
         };
 
         public List<TimeOfDayMultipleFood> multipleFoodList = new List<TimeOfDayMultipleFood> {
-            new TimeOfDayMultipleFood(1, new List<int> { 5 }),
-            new TimeOfDayMultipleFood(2, new List<int> { 4 })
+            new TimeOfDayMultipleFood(TimeOfDay.Morning, new List<int> { 5 }),
+            new TimeOfDayMultipleFood(TimeOfDay.Night, new List<int> { 4 })
         };
 
         public List<Dish> dishList = new List<Dish> {
-            // Dish(int dishID, int foodID, int dishTypeID, int timeOfDayID)
-            new Dish(1, 1, 1, 1),
-            new Dish(2, 2, 1, 2),
-            new Dish(3, 3, 2, 1),
-            new Dish(4, 4, 2, 2),
-            new Dish(5, 5, 3, 1),
-            new Dish(6, 6, 3, 2),
-            new Dish(7, 7, 4, 2)
+            // Dish(int dishID, int foodID, DishType dishType, TimeOfDay timeOfDay)
+            new Dish(1, 1, DishType.Entrée, TimeOfDay.Morning),
+            new Dish(2, 2, DishType.Entrée, TimeOfDay.Night),
+            new Dish(3, 3, DishType.Side, TimeOfDay.Morning),
+            new Dish(4, 4, DishType.Side, TimeOfDay.Night),
+            new Dish(5, 5, DishType.Drink, TimeOfDay.Morning),
+            new Dish(6, 6, DishType.Drink, TimeOfDay.Night),
+            new Dish(7, 7, DishType.Dessert, TimeOfDay.Night)
         };
-
-        public TimeOfDay FindTimeOfDay(string name)
-        {
-            foreach (var timeOfDay in timeOfDayList)
-                if (timeOfDay.Name.Trim().ToLower() == name.Trim().ToLower())
-                    return timeOfDay;
-
-            return null;
-        }
 
         public Food FindFood(int foodID)
         {
@@ -61,10 +40,10 @@ namespace TechnicalPracticum
             return null;
         }
 
-        public Dish FindDish(int timeOfDayID, int dishTypeID)
+        public Dish FindDish(TimeOfDay timeOfDay, DishType dishType)
         {
             foreach (var dish in dishList)
-                if (dish.TimeOfDayID == timeOfDayID && dish.DishTypeID == dishTypeID)
+                if (dish.TimeOfDay == timeOfDay && dish.DishType == dishType)
                     return dish;
 
             return null;

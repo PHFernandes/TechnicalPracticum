@@ -2,16 +2,11 @@
 
 namespace TechnicalPracticum.Model
 {
-    public class DishType
+    public enum DishType
     {
-        public DishType(int dishTypeID, string name)
-        {
-            DishTypeID = dishTypeID;
-            Name = name;
-        }
-
-        public int DishTypeID { get; set; }
-
-        public string Name { get; set; }
+        Entrée = 1,
+        Side = 2,
+        Drink = 3,
+        Dessert = 4
     }
 }

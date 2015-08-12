@@ -1,17 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace TechnicalPracticum.Model
 {
     public class TimeOfDayMultipleFood
     {
-        public TimeOfDayMultipleFood(int timeOfDayID, List<int> foodIDList)
+        public TimeOfDayMultipleFood(TimeOfDay timeOfDay, List<int> foodIDList)
         {
-            TimeOfDayID = timeOfDayID;
+            TimeOfDay = timeOfDay;
             FoodIDList = foodIDList;
         }
 
-        public int TimeOfDayID { get; set; }
+        public TimeOfDay TimeOfDay { get; set; }
 
         public List<int> FoodIDList { get; set; }
     }

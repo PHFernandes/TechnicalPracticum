@@ -7,3 +7,6 @@ C:\Users\Pedro Henrique\Projetos\Technical Practicum\TechnicalPracticum\obj\Debu
 C:\Users\Pedro Henrique\Documents\GitHub\TechnicalPracticum\TechnicalPracticum\bin\Debug\Practicum.exe.config
 C:\Users\Pedro Henrique\Documents\GitHub\TechnicalPracticum\TechnicalPracticum\obj\Debug\Practicum.exe
 C:\Users\Pedro Henrique\Documents\GitHub\TechnicalPracticum\TechnicalPracticum\obj\Debug\Practicum.pdb
+C:\Users\Pedro Henrique\Documents\GitHub\TechnicalPracticum\TechnicalPracticum\bin\Debug\Practicum.exe
+C:\Users\Pedro Henrique\Documents\GitHub\TechnicalPracticum\TechnicalPracticum\bin\Debug\Practicum.pdb
+C:\Users\Pedro Henrique\Documents\GitHub\TechnicalPracticum\TechnicalPracticum\obj\Debug\TechnicalPracticum.csprojResolveAssemblyReference.cache

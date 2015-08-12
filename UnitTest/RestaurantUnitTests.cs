@@ -1,37 +1,37 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TechnicalPracticum;
 
 namespace UnitTest
 {
     [TestClass]
-    public class UnitTest1
+    public class RestaurantUnitTests
     {
         [TestMethod]
-        public void TimeOfDay()
+        public void CheckingCaseSensitiveCondition()
         {
-            Assert.AreEqual(Program.EnterOrder("Morning,1"), "Eggs");
-            Assert.AreEqual(Program.EnterOrder("Night,1"), "Steak");
+            Assert.AreEqual(Program.EnterOrder("MorNIng,1"), "Eggs");
+            Assert.AreEqual(Program.EnterOrder("NigHT,1"), "Steak");
 
             Assert.AreEqual(Program.EnterOrder("morning,1"), "Eggs");
             Assert.AreEqual(Program.EnterOrder("night,1"), "Steak");
         }
 
         [TestMethod]
-        public void AtLeastOnSelection()
+        public void CheckingAtLeastOneSelectionIsPassed()
         {
-            Assert.AreEqual(Program.EnterOrder("morning,"), "Eggs");
-            Assert.AreEqual(Program.EnterOrder("night,"), "Steak");
+            Assert.AreEqual(Program.EnterOrder("morning,"), "");
+            Assert.AreEqual(Program.EnterOrder("night,"), "");
         }
 
         [TestMethod]
-        public void ReturnOrder()
+        public void CheckingReturnOrder()
         {
+            Assert.AreNotEqual(Program.EnterOrder("morning,2,1"), "Toast,Eggs");
             Assert.AreEqual(Program.EnterOrder("morning,3,2,1"), "Eggs,Toast,Coffee");
         }
 
         [TestMethod]
-        public void MultipleOrders()
+        public void CheckingMultipleOrders()
         {
             Assert.AreEqual(Program.EnterOrder("morning,3,3,3,3,2,1"), "Eggs,Toast,Coffee(x4)");
             Assert.AreEqual(Program.EnterOrder("night,1,2,2,4"), "Steak,Potato(x2),Cake");

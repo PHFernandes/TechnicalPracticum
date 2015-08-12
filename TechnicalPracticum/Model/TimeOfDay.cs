@@ -2,16 +2,9 @@
 
 namespace TechnicalPracticum.Model
 {
-    public class TimeOfDay
+    public enum TimeOfDay
     {
-        public TimeOfDay(int timeOfDayID, string name)
-        {
-            TimeOfDayID = timeOfDayID;
-            Name = name;
-        }
-
-        public int TimeOfDayID { get; set; }
-
-        public string Name { get; set; }
+        Morning = 1,
+        Night = 2
     }
 }

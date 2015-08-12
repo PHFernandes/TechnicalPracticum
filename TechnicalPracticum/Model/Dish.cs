@@ -4,20 +4,20 @@ namespace TechnicalPracticum.Model
 {
     public class Dish
     {
-        public Dish(int dishID, int foodID, int dishTypeID, int timeOfDayID)
+        public Dish(int dishID, int foodID, DishType dishType, TimeOfDay timeOfDay)
         {
             DishID = dishID;
             FoodID = foodID;
-            DishTypeID = dishTypeID;
-            TimeOfDayID = timeOfDayID;
+            DishType = dishType;
+            TimeOfDay = timeOfDay;
         }
 
         public int DishID { get; set; }
 
         public int FoodID { get; set; }
 
-        public int DishTypeID { get; set; }
+        public DishType DishType { get; set; }
 
-        public int TimeOfDayID { get; set; }
+        public TimeOfDay TimeOfDay { get; set; }
     }
 }
